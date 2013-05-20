@@ -1,10 +1,10 @@
 /* Thumb Navigator ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
   
 .g-thumbnav { text-align: center; padding: 0; }
-.g-navthumb { width: 62px; height: 62px; filter:alpha(opacity=55); opacity:.55; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)"; }
+.g-navthumb { width: 60px; height: auto; filter:alpha(opacity=55); opacity:.55; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)"; }
 
 .g-thumbnav ul { display: inline-block; padding: 0; margin: 0 0.5em; }
-.g-thumbnav li { float: left; border: transparent 1px solid;}
+.g-thumbnav li { float: left; border: transparent 1px solid; width: 60px; height: 40px; overflow:hidden;}
 .g-thumbnav li.g-current { border-color: #ddd; }
 
 .g-thumbnav li.g-current .g-navthumb,
