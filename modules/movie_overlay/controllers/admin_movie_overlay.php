@@ -60,10 +60,10 @@ class Admin_Movie_overlay_Controller extends Admin_Controller {
     $group->dropdown("icon")->label(t("Choose the icon of the movie play button"))
       	->options($range)
       	->selected(module::get_var("movie_overlay", "icon", "1"));
-    $group->dropdown("trans")->label(t("Choose the visability of the play button."))
+    $group->dropdown("trans")->label(t("Choose the visibility of the play button."))
       	->options($range2)
       	->selected(module::get_var("movie_overlay", "trans", "90"));
-	$group->checkbox("time")->label(t("Show durration of movie (ffmpeg required)"))
+	$group->checkbox("time")->label(t("Show duration of movie (ffmpeg required)"))
 		->checked(module::get_var("movie_overlay", "time", "0"));
 		
     $group->submit("submit")->value(t("Save"));
