@@ -1,0 +1,7 @@
+name        = "Thumb Navigator"
+description = "Sidebar block: Adds thumb navigation option in Photo View.<br />Version 1.8 | By <a href=http://blog.dragonsoft.us>Serguei Dosyukov</a> | <a href=http://codex.gallery2.org/Gallery3:Modules:thumbnav>Visit plugin Site</a> | <a href=http://gallery.menalto.com/node/95116>Support</a> | <a href=thumbnav>Settings</a>"
+version     = 18
+author_name = "Serguei Dosyukov"
+author_url  = "http://blog.dragonsoft.us/gallery-3/"
+info_url    = "http://codex.gallery2.org/Gallery3:Modules:thumbnav"
+discuss_url = "http://gallery.menalto.com/node/95116"

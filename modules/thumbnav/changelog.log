@@ -1,0 +1,20 @@
+Thumb Navigator Changelog
+
+version 1.8
+- ADMIN: Added option to hide albums from the list
+- Module info adjusted to match new format in G3 3.0.2+
+- Fix: Added translation logic for help info
+- Fix: Added check for security access to the photo
+- Added support for modules which "hack" the item logic - instead of using access functionality, changed to use ->viewable()
+
+version 1.7:
+- Fix opacity settings for IE9
+
+version 1.6:
+- Some minor optimizations in Admin section
+
+version 1.5:
+- Some minor fixes
+
+version 1.4:
+- Fixed uninitialized state for content variable
