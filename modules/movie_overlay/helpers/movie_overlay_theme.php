@@ -34,8 +34,7 @@ class movie_overlay_theme_Core {
     }
   }
   static function head($theme, $child) {
-	if ($theme->page_type == "collection") {
-	$trans 		= module::get_var("movie_overlay", "trans");
+	$trans = module::get_var("movie_overlay", "trans");
 	return "\t<style type=\"text/css\"> 
 	.g-movie-thumb {
 	  position:relative;
@@ -67,7 +66,6 @@ class movie_overlay_theme_Core {
 	  margin-left: -5px!important;
 	}
 	</style>";
-	}
   }
   static function thumb_top($theme, $child) {
 	if ($child->type == "movie") {
